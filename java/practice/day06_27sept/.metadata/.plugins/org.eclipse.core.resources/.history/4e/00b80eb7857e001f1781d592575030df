@@ -1,0 +1,11 @@
+package com.cdac;
+
+public class DayEnumTester {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		DayEnum tomorrow = DayEnum.MONDAY;
+		System.out.println(tomorrow);
+	}
+
+}

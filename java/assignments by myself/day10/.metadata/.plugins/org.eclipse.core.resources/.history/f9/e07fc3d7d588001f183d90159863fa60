@@ -1,0 +1,42 @@
+package com.cdac.acts;
+import com.cdac.acts.Fruits;
+import java.util.ArrayList;
+
+public class FruitTester {
+
+	public static void main(String[] args) {
+		ArrayList<Fruits> fruitList = new ArrayList<>();
+		
+		Fruits f1 = new Fruits("Apple","Red",23.04,3);
+		Fruits f2 = new Fruits("Banana","Yellow",12.84,33);
+		Fruits f3 = new Fruits("Chiku","Brown",13.08,21);
+		Fruits f4 = new Fruits("Guava","Green",20.04,53);
+		Fruits f5 = new Fruits("Papaya","Orange",200.23,5);
+		
+		fruitList.add(f1);
+		fruitList.add(f2);
+		fruitList.add(f3);
+		fruitList.add(f4);
+		fruitList.add(f5);
+		
+		// printing
+		System.out.println("\n********Print whole arraylist int system.out.println()*********");
+		System.out.println(fruitList);
+		
+		// printing using get().toString in a loop
+		System.out.println("\n********Print single element uisng loop*********");
+		for(int i=0;i<fruitList.size();i++) {
+			System.out.println(fruitList.get(i).toString());
+		}
+		
+		
+		// enhanced for loop
+		System.out.println("\n********Print using enhanced for loop*********");
+		for(Fruits fr:fruitList) {
+			System.out.println(fr);
+		}
+		
+		
+	}
+
+}

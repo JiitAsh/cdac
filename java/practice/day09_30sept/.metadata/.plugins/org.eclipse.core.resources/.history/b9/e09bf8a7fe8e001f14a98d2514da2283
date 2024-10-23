@@ -1,0 +1,41 @@
+package prac.com;
+
+public class Tester {
+
+	public static void main(String[] args) throws ClassNotFoundException {
+		// TODO Auto-generated method stub
+			Class.forName("prac.com.C");
+			
+			System.out.println();
+			System.out.println("C obj");
+			C c=new C();
+			System.out.println();
+			System.out.println("B obj");
+			B b=new B();
+			System.out.println();
+			System.out.println("A obj");
+			A a=new A();
+	}
+	
+/*******************************Execution of the code*********************************************/
+//	1) Class.forName("prac.com.C");  //Class C is only loaded and not initialized.
+           //(loading C) => (A:Static)=> (C:Static) {No instance member as C is only loaded, not initialized/not declared as an object using new}
+      
+
+//  2) C c=new C(); //Class C is initialized or an object of C has been made in the memory.
+		    //************Static Block is executed only once.***********
+	       //(obj(B)) => (A:instance) => (C:instance) {As A is the parent class of C, instance members of A are initialized first before that of C}
+	
+
+//  3) B b=new B(); //Class B is initialized or an object of B has been made in the memory.
+		 //************Static Block is executed only once.***********
+	
+	    //(obj(B)) => (B:static) => (A:instance) => (B:instance) 
+	
+	   //{As B has been initialized for the first time, static block of B gets executed first, and then  instance block of A gets executed followed by the execution of instance block of B}
+
+	
+//  4) A a=new A(); //Class A is initialized or an object of A has been made in the memory.
+	 //************Static Block is executed only once.*************
+	  //(obj(A)) => (A:instance)  
+}

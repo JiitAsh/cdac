@@ -1,0 +1,10 @@
+package com.cdac;
+import java.time.LocalDate;
+public class Tester {
+
+	public static void main(String[] args) {
+		System.out.println("Hello Programmer :)");
+		Book b1 = new Book("Java: Head First","TECHNICAL",5000.0,LocalDate.now(), "Kethy Seiara", 10);
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.cdac;
+
+public class TesterScanner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

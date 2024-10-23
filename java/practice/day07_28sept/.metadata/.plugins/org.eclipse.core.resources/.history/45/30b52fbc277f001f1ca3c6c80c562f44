@@ -1,0 +1,21 @@
+
+public class Tester {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Hello Programmer :) ");
+//		Player p1 = new Player();
+//		System.out.println(p1.get());
+//		
+//		Player p2 = new Player("Virat", 36);
+//		System.out.println(p2.get());
+		
+		
+		CktPlayer cp1 = new CktPlayer();
+		//System.out.println(cp1.get());
+		
+		CktPlayer cp2 = new CktPlayer("Sachin", 52, 2000);
+		//System.out.println(cp2.get());
+	}
+
+}

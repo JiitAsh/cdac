@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.cdac.Emloyee&apos; to &apos;Employee&apos;&#x0D;&#x0A;- Original project: &apos;01_EqualsPractice&apos;&#x0D;&#x0A;- Original element: &apos;com.cdac.Emloyee&apos;&#x0D;&#x0A;- Renamed element: &apos;com.cdac.Employee&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Emloyee&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.cdac{Emloyee.java[Emloyee" matchStrategy="1" name="Employee" qualified="false" references="true" similarDeclarations="false" stamp="1728048666621" textual="false" version="1.0"/>
+</session>

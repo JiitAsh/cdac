@@ -1,0 +1,24 @@
+package com.cdac;
+
+import java.util.Scanner;
+
+public class Tester {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter something");
+//		int i = sc.nextInt();
+//		String s = sc.next();
+//		String str = sc.nextLine();
+//		Integer val = null;
+		if(System.err.equals(System.out)) {
+			System.out.println("System.in and System.out both are public CONSTANTS and have \"null\" values");
+		}else {
+			System.out.println("Something went wrong ;(");
+		}
+//		System.out.println(val);
+		sc.close();
+	}
+
+}

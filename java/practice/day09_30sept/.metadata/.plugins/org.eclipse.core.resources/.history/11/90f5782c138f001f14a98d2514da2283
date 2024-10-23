@@ -1,0 +1,19 @@
+package com.bank;
+
+public class Tester {
+
+	public static void main(String[] args) {
+		Account ac = new Account();
+		ac.setBalace(12000);
+		try {
+			if(ac.getBalance()<10000) {
+				throw new BalanceException("Account Balace is Low!!");
+			}
+		}catch(BalanceException be) {
+			System.out.println(be);
+		}finally {
+			System.out.println("ok bye bye!!");
+		}
+	}
+
+}

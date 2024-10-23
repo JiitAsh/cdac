@@ -1,0 +1,20 @@
+package com.cdac;
+import java.time.LocalDate;
+public class Book {
+	private String title;
+	private String bookType;
+	private Double price;
+	private LocalDate publishedDate;
+	private String authorName;
+	private Integer quantity;
+	
+	public Book() {
+		super();
+	}
+	
+	public Book(String title, String bookType, Double price, LocalDate publishedDate, String authorName, Integer quantity) {
+		super();
+		this.title = title;
+		this.bookType = bookType;
+	}
+}

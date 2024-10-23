@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.cdac.ArithmaticOperations.java&apos; to &apos;ArithmeticOperations.java&apos;&#x0D;&#x0A;- Original project: &apos;01_ArithmaticExcePrac&apos;&#x0D;&#x0A;- Original element: &apos;com.cdac.ArithmaticOperations.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.cdac.ArithmeticOperations.java&apos;" description="Rename compilation unit &apos;ArithmaticOperations.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.cdac{ArithmaticOperations.java" name="ArithmeticOperations.java" references="false" stamp="1729428280554" version="1.0"/>
+</session>

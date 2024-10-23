@@ -1,0 +1,20 @@
+
+public class CktPlayer extends Player {
+	private int runs;
+	
+	public CktPlayer() {
+		System.out.println("CktPlayer default ctor !!");
+		runs = 0;
+	}
+	
+	public CktPlayer(int runs) {
+		System.out.println("CktPlayer param ctor !!");
+		this.runs = runs;
+	}
+	
+	@Override
+	public String get() {
+		System.out.println("CktPlayer class get() method");
+		return get() + ", runs: " + runs; 
+	}
+}

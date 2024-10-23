@@ -1,0 +1,10 @@
+
+public class StaticTester {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		StaticClass.meth(24);
+		System.out.println("The value of a is: " + StaticClass.a);
+	}
+
+}

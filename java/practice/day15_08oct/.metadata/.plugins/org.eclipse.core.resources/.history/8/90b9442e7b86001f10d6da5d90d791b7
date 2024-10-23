@@ -1,0 +1,34 @@
+package com.cdac.my.practice;
+
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+
+
+public class FR_FW_Practice {
+
+	public static void main(String[] args) {
+		File newFile = new File("abc.txt");
+		try {
+			if(!newFile.exists()) {
+				newFile.createNewFile();
+			}
+			String str="";
+			FileReader fr = new FileReader(newFile);
+			int singleCharUnicode = fr.read();
+			while(singleCharUnicode != -1) {
+//				System.out.print((char) singleCharUnicode);
+				str += (char) singleCharUnicode;
+				singleCharUnicode = fr.read();
+			}
+			fr.close();
+			System.out.println("Hello");
+			
+			System.out.println(str);
+			
+		}catch(IOException e) {
+			System.err.println(e.getMessage());
+		}
+	}
+
+}

@@ -1,0 +1,16 @@
+package EnumWithCtorMethod;
+
+public enum TitleEnum {
+	SE("Software Eng"),
+	HR("HR Executive"),
+	MD("Managing Director");
+	
+	private String roleName;
+	private TitleEnum(String roleName) {
+		this.roleName = roleName;
+	}
+	
+	public String getDecription() {
+		return roleName;   // will return description of roleName, won't return the role name
+	}
+}

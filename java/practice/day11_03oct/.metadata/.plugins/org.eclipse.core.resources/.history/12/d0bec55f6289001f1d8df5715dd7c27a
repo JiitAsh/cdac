@@ -1,0 +1,14 @@
+package com.cdac;
+import java.util.ArrayList;
+public class ArrayListTester {
+
+	public static void main(String[] args) {
+		ArrayList<Integer> al = new ArrayList<>();
+		al.add(12);
+		al.add(34);
+		al.add(345);
+		al.add(56);
+		System.out.println(al);
+	}
+
+}

@@ -1,0 +1,36 @@
+package com.cdac;
+
+import java.util.HashSet;
+import java.util.Set;
+import java.util.Iterator;
+public class HashSetPractice {
+
+	public static void main(String[] args) {
+		Set<String> hs = new HashSet<>();
+		System.out.println("Hi " + "Hi".hashCode());
+		hs.add("Hi");
+		System.out.println("Hello " + "Hello".hashCode());
+		hs.add("Hello");
+		System.out.println("Hey " + "Hey".hashCode());
+		hs.add("Hey");
+		System.out.println("How are you " + "How are you".hashCode());
+		hs.add("How are you");
+		System.out.println("Hey there " + "Hey there".hashCode());
+		hs.add("Hey there");
+		
+		//direct printing
+		System.out.println(hs);
+		
+		//using enhanced for loop
+		for(String val:hs) {
+			System.out.println(val);
+		}
+		
+		//using iterator
+		Iterator<String> it = hs.iterator();
+		while(it.hasNext()) {
+			System.out.println(it.next());
+		}
+	}
+
+}

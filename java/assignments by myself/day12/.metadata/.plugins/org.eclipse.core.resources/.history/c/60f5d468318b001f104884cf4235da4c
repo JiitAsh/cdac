@@ -1,0 +1,9 @@
+package com.cdac;
+
+public class AccountTester {
+
+	public static void main(String[] args) {
+		System.out.println("Hello Programmer :)");
+	}
+
+}

@@ -1,0 +1,30 @@
+// to practice BufferReader and BufferWriter
+package com.cdac.my.practice;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class BR_BW_Practice {
+
+	public static void main(String[] args) {
+		InputStreamReader isr = new InputStreamReader(System.in);
+//		BufferedReader br = new BufferedReader(System.in);  // it takes (Reader in) not (InputStream in) so provide Reader not InputStream
+		try {
+			BufferedReader br = new BufferedReader(isr);
+			System.out.println("Enter something: ");
+			String str = br.readLine();
+			System.out.println("your something is: " + str);
+			
+			br.close();
+			
+		}catch(IOException e) {
+			System.err.println(e.getMessage());
+		}
+		
+		
+		
+		
+	}
+
+}

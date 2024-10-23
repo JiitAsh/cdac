@@ -1,0 +1,16 @@
+package com.cdac;
+import java.util.List;
+import java.util.LinkedList;
+import java.time.LocalDate;
+public class AccountTester {
+
+	public static void main(String[] args) {
+		System.out.println("Hello Programmer :)");
+		List<Account> accList = new LinkedList<>();
+		LocalDate todaysDate = LocalDate.now();
+		Account ac1 = new Account("Jitesh",10000.0,LocalDate.now());
+		Account ac2 = new Account("Nitesh",14000.0,LocalDate.now());
+		Account ac3 = new Account("Ritesh",12000.0,LocalDate.now());
+	}
+
+}

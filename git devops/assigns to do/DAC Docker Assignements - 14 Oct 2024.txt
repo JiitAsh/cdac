@@ -1,0 +1,73 @@
+1. Containerize a Plain Java Application
+   - Objective: Build a Docker container for a basic Java application.
+   - Task:
+     1. Write a simple Java program that prints "Hello, Docker!"
+     2. Create a `Dockerfile` to containerize the Java application.
+     3. Build the image and run the container using Docker.
+     4. Verify the output inside the container.
+
+
+2. Java with MySQL Integration
+   - Objective: Connect a plain Java application with a MySQL database running in a Docker container.
+   - Task:
+     1. Write a Java program that connects to a MySQL database and inserts a record into a table.
+     2. Run a MySQL container using Docker.
+     3. Pass the MySQL container's IP and credentials to the Java program.
+     4. Use Docker to run the Java application inside a separate container, connecting to MySQL.
+ 
+
+3. Docker Compose with Java and MySQL
+   - Objective: Use Docker Compose to run a Java application and MySQL together.
+   - Task:
+     1. Write a Java program to insert and query records from MySQL.
+     2. Define a `docker-compose.yml` file to run both Java and MySQL containers.
+     3. Ensure that the Java container waits for MySQL to be ready before executing.
+     4. Verify that the Java application correctly interacts with MySQL.
+
+4. Persistent MySQL with Java
+   - Objective: Ensure MySQL data persistence when restarting containers.
+   - Task:
+     1. Write a Java program that stores and retrieves data from a MySQL database.
+     2. Set up a MySQL container with a volume for persistent storage.
+     3. Ensure that data persists even after the container is stopped and restarted.
+     4. Use Docker to run the Java application and verify data persistence.
+
+
+5. Create and Manage a Multi-Container Network
+   - Objective: Set up a Docker network to allow multiple containers to communicate with each other.
+   - Task:
+     1. Create a Docker network using the `docker network` command.
+     2. Run two different containers (e.g., `nginx` and `busybox`).
+     3. Connect both containers to the same network.
+     4. From the `busybox` container, use `curl` to access the `nginx` container by its container name.
+     5. Verify network connectivity and display network details.
+ 
+
+6. Persistent Storage with Volumes
+   - Objective: Use Docker volumes to persist data across container restarts.
+   - Task:
+     1. Create a Docker volume.
+     2. Run a MySQL container and mount the volume to the MySQL data directory (`/var/lib/mysql`).
+     3. Create a new database in the MySQL container.
+     4. Stop and remove the MySQL container.
+     5. Re-run the MySQL container using the same volume and verify that the database persists.
+ 
+
+7. Docker Compose for a Multi-Container Application
+   - Objective: Use Docker Compose to orchestrate a multi-container application (e.g., web and database).
+   - Task:
+     1. Write a `docker-compose.yml` file to run a two-container setup: one for a web server (e.g., `nginx`) and another for a database (e.g., `MySQL`).
+     2. Use environment variables in the Compose file to pass configuration to the database (e.g., root password).
+     3. Start the containers using Docker Compose.
+     4. Verify that the web server can access the database and output data from the database.
+     5. Use Docker Compose commands to stop, restart, and scale the services.
+   - Docker Commands: `docker-compose up`, `docker-compose down`, `docker-compose logs`, `docker-compose scale`.
+
+8. Dockerizing and Pushing to Docker Hub
+   - Objective: Build a Docker image from a `Dockerfile` and push it to Docker Hub.
+   - Task:
+     1. Write a `Dockerfile` for a simple application (e.g., a Python app that prints "Hello Docker").
+     2. Build the Docker image locally.
+     3. Tag the image with your Docker Hub repository name.
+     4. Log in to Docker Hub from the terminal.
+     5. Push the image to Docker Hub and verify it's available in your Docker Hub account.

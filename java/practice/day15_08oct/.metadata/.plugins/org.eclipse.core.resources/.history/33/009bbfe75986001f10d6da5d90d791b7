@@ -1,0 +1,29 @@
+package com.cdac.my.practice;
+
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Practice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			InputStreamReader isr = new InputStreamReader(System.in);
+			System.out.print("Enter something: ");
+			// let store the input in a string
+			String str = "";
+			int singleCharUnicode = isr.read();
+			while(isr.ready()) {
+				singleCharUnicode = isr.read();
+				str += (char) singleCharUnicode;
+			}
+			
+			System.out.println(str);
+			isr.close();
+		}catch(IOException e) {
+			System.err.println(e.getMessage());
+		}
+		
+	}
+
+}

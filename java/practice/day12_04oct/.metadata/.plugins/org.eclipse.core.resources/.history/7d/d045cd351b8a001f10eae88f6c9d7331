@@ -1,0 +1,24 @@
+package com.cdac;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class HashSetPractice {
+
+	public static void main(String[] args) {
+		Set<String> hs = new HashSet<>();
+		System.out.println("Hi " + "Hi".hashCode());
+		hs.add("Hi");
+		System.out.println("Hello " + "Hello".hashCode());
+		hs.add("Hello");
+		System.out.println("Hey " + "Hey".hashCode());
+		hs.add("Hey");
+		System.out.println("How are you " + "How are you".hashCode());
+		hs.add("How are you");
+		System.out.println("Hey there " + "Hey there".hashCode());
+		hs.add("Hey there");
+		
+		System.out.println(hs);
+	}
+
+}

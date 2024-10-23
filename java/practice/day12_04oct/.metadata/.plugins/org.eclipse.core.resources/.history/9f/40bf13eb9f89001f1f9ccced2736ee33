@@ -1,0 +1,52 @@
+package com.cdac;
+import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
+import java.util.LinkedList;
+public class Tester {
+
+	public static void main(String[] args) {
+		System.out.println("Hello Proagrammer :)");
+		List<Integer> linkedList = new LinkedList<>();
+		linkedList.add(12);
+		linkedList.add(10);
+		linkedList.add(198);
+		linkedList.add(21);
+		linkedList.add(134);
+		
+		System.out.println(linkedList);
+		
+//		for(int i=0;i<linkedList.size();i++) {       //in every iteration we are adding a new element that's why size is increasing after every iteration.  so it will become an infinite loop
+//			System.out.println(linkedList.get(i));
+//			linkedList.add(i*23 + i+100);
+//		}
+//		
+//		for(Integer val:linkedList) {   //in every iteration we are adding a new element that's why size is increasing after every iteration.  so it will become an infinite loop
+//			System.out.println(val);
+//			linkedList.add(val*23+val+100);
+//		}
+		
+		List<Integer> cowl = new CopyOnWriteArrayList<>();
+		cowl.add(12);
+		cowl.add(10);
+		cowl.add(198);
+		cowl.add(21);
+		cowl.add(134);
+
+		System.out.println(cowl);
+
+
+//		for(int i=0; i < cowl.size(); i++) {       //in every iteration we are adding a new element that's why size is increasing after every iteration. So it will become an infinite loop
+//		    System.out.println(cowl.get(i));
+//		    cowl.add(i * 23 + i + 100);
+//		}
+
+//		for(Integer val : cowl) {   //in every iteration we are adding a new element that's why size is increasing after every iteration. So it will become an infinite loop
+//		    System.out.println(val);
+//		    cowl.add(val * 23 + val + 100);
+//		}
+		
+		
+		
+	}
+
+}

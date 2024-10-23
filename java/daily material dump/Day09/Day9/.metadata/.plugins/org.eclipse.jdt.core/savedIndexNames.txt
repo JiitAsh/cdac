@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Users\hp\Desktop\cdac\java\daily material dump\Day09\Day9\.metadata\.plugins\org.eclipse.jdt.core
+3293266099.index
+1865797976.index
+3547197350.index

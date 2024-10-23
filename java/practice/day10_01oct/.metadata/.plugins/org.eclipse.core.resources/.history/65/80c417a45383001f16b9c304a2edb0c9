@@ -1,0 +1,22 @@
+package com.cdac;
+
+import java.util.ArrayList;
+
+public class ArrayListPrac {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Collection<E> (I) --> List<E> (I)  --> ArrayList<E> (C)
+		//ArrayList<int> al = new ArrayList<int> ();  // will create error bcz 'int' is not acceptable
+		ArrayList<Integer> al = new ArrayList<Integer> ();
+		al.add(null);
+		al.add(12);
+		al.add(23);
+		al.add(null);
+		al.add(23);
+		al.add(-12);
+		
+		System.out.println(al);   // direct printing 
+	}
+
+}

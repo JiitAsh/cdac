@@ -1,0 +1,8 @@
+package com.cdac;
+
+public enum BookType {
+	TECHNICAL,
+	ACADEMIC,
+	FICTION,
+	ROMANTIC;
+}

@@ -1,0 +1,13 @@
+package com.cdac;
+
+public class ConsolePrinter {
+	public static void showMenu() {
+		System.out.println("\n*******Select Option********");
+		System.out.println("1.Add Book."
+				+ "\n2.Display All Book."
+				+ "\n3.Allot Book."
+				+ "\n4.Receive Book."
+				+ "\n5.Remove Book."
+				+ "\n0.Exit");
+	}
+}

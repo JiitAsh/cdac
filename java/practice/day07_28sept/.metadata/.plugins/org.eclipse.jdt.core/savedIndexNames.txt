@@ -1,0 +1,8 @@
+INDEX VERSION 1.134+C:\Users\hp\Desktop\cdac\java\practice\day07_28sept\.metadata\.plugins\org.eclipse.jdt.core
+1011116148.index
+2416284094.index
+3000017931.index
+1865797976.index
+2842773265.index
+3294775327.index
+2110707203.index

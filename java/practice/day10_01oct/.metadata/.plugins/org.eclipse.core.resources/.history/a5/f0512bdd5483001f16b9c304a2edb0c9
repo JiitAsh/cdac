@@ -1,0 +1,49 @@
+package com.cdac;
+
+import java.util.ArrayList;
+import java.util.ListIterator;
+
+public class ArrayListPrac {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Collection<E> (I) --> List<E> (I)  --> ArrayList<E> (C)
+		//ArrayList<int> al = new ArrayList<int> ();  // will create error bcz 'int' is not acceptable
+		ArrayList<Integer> al = new ArrayList<Integer> ();
+		// adding element
+		al.add(null);
+		al.add(12);
+		al.add(23);
+		al.add(null);
+		al.add(23);
+		al.add(-12);
+		
+		// direct printing 
+		System.out.println(al);   
+		
+		// size method
+		int size = al.size();   
+		
+		// using for loop
+		for(int i=0;i<size;i++) {   
+			System.out.print(al.get(i) + " ");
+		}
+		
+		//line break
+		System.out.println();
+		
+		// forward iterator
+		ListIterator<Integer> it = al.listIterator(-1);
+		while(it.hasNext()) {
+			Integer val = it.next();
+			System.out.print(val + " ");
+		}
+		
+		// backward iterator
+		ListIterator<Integer> itb = al.listIterator(al.size());
+		while(itb.hasPrevious()) {
+			System.out.print(it.previous() + " ");
+		}
+	}
+
+}

@@ -1,0 +1,18 @@
+package com.champion;
+import java.util.Scanner;
+public class MainFile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		Address add1 = new Address();
+		Address add2 = new Address("Soapn Baug", "B1-16", "462203");
+		System.out.println(add1.getAddress());
+		System.out.println(add2.getAddress());
+		
+		
+		sc.close();
+
+	}
+
+}

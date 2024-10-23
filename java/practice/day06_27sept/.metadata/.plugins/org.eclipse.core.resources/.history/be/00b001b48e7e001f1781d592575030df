@@ -1,0 +1,5 @@
+package EnumWithCtorMethod;
+
+public enum TitleEnum {
+
+}

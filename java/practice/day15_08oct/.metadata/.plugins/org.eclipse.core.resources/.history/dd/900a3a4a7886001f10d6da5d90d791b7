@@ -1,0 +1,16 @@
+package com.cdac.my.practice;
+
+import java.io.FileReader;
+
+public class FR_FW_Practice {
+
+	public static void main(String[] args) {
+		try {
+			FileReader fr = new FileReader("abc.txt");
+			if()
+		}catch(IOException e) {
+			System.err.println(e.getMessage());
+		}
+	}
+
+}
