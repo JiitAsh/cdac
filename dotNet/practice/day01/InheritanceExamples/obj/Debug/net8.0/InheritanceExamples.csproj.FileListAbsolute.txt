@@ -1,0 +1,15 @@
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\InheritanceExamples\bin\Debug\net8.0\InheritanceExamples.exe
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\InheritanceExamples\bin\Debug\net8.0\InheritanceExamples.deps.json
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\InheritanceExamples\bin\Debug\net8.0\InheritanceExamples.runtimeconfig.json
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\InheritanceExamples\bin\Debug\net8.0\InheritanceExamples.dll
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\InheritanceExamples\bin\Debug\net8.0\InheritanceExamples.pdb
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\InheritanceExamples\obj\Debug\net8.0\InheritanceExamples.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\InheritanceExamples\obj\Debug\net8.0\InheritanceExamples.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\InheritanceExamples\obj\Debug\net8.0\InheritanceExamples.AssemblyInfo.cs
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\InheritanceExamples\obj\Debug\net8.0\InheritanceExamples.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\InheritanceExamples\obj\Debug\net8.0\InheritanceExamples.sourcelink.json
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\InheritanceExamples\obj\Debug\net8.0\InheritanceExamples.dll
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\InheritanceExamples\obj\Debug\net8.0\refint\InheritanceExamples.dll
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\InheritanceExamples\obj\Debug\net8.0\InheritanceExamples.pdb
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\InheritanceExamples\obj\Debug\net8.0\InheritanceExamples.genruntimeconfig.cache
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\InheritanceExamples\obj\Debug\net8.0\ref\InheritanceExamples.dll

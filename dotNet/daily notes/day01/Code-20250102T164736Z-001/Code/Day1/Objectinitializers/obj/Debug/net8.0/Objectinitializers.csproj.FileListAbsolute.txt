@@ -1,0 +1,14 @@
+D:\Trainings\ActsJan25\Day1\Objectinitializers\bin\Debug\net8.0\Objectinitializers.exe
+D:\Trainings\ActsJan25\Day1\Objectinitializers\bin\Debug\net8.0\Objectinitializers.deps.json
+D:\Trainings\ActsJan25\Day1\Objectinitializers\bin\Debug\net8.0\Objectinitializers.runtimeconfig.json
+D:\Trainings\ActsJan25\Day1\Objectinitializers\bin\Debug\net8.0\Objectinitializers.dll
+D:\Trainings\ActsJan25\Day1\Objectinitializers\bin\Debug\net8.0\Objectinitializers.pdb
+D:\Trainings\ActsJan25\Day1\Objectinitializers\obj\Debug\net8.0\Objectinitializers.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trainings\ActsJan25\Day1\Objectinitializers\obj\Debug\net8.0\Objectinitializers.AssemblyInfoInputs.cache
+D:\Trainings\ActsJan25\Day1\Objectinitializers\obj\Debug\net8.0\Objectinitializers.AssemblyInfo.cs
+D:\Trainings\ActsJan25\Day1\Objectinitializers\obj\Debug\net8.0\Objectinitializers.csproj.CoreCompileInputs.cache
+D:\Trainings\ActsJan25\Day1\Objectinitializers\obj\Debug\net8.0\Objectinitializers.dll
+D:\Trainings\ActsJan25\Day1\Objectinitializers\obj\Debug\net8.0\refint\Objectinitializers.dll
+D:\Trainings\ActsJan25\Day1\Objectinitializers\obj\Debug\net8.0\Objectinitializers.pdb
+D:\Trainings\ActsJan25\Day1\Objectinitializers\obj\Debug\net8.0\Objectinitializers.genruntimeconfig.cache
+D:\Trainings\ActsJan25\Day1\Objectinitializers\obj\Debug\net8.0\ref\Objectinitializers.dll

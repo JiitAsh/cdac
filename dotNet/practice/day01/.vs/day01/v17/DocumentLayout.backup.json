@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hp\\Desktop\\cdac\\dotNet\\practice\\day01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3D349BF6-06D2-4A65-A17E-1DD42B29D943}|InheritanceExamples\\InheritanceExamples.csproj|c:\\users\\hp\\desktop\\cdac\\dotnet\\practice\\day01\\inheritanceexamples\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D349BF6-06D2-4A65-A17E-1DD42B29D943}|InheritanceExamples\\InheritanceExamples.csproj|solutionrelative:inheritanceexamples\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C257520-D45D-48BA-A824-2745AA4A5B33}|StaticMembers\\StaticMembers.csproj|c:\\users\\hp\\desktop\\cdac\\dotnet\\practice\\day01\\staticmembers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C257520-D45D-48BA-A824-2745AA4A5B33}|StaticMembers\\StaticMembers.csproj|solutionrelative:staticmembers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97A309F4-A7D5-476C-A3B6-5FF1D13960F6}|Constructors\\Constructors.csproj|c:\\users\\hp\\desktop\\cdac\\dotnet\\practice\\day01\\constructors\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97A309F4-A7D5-476C-A3B6-5FF1D13960F6}|Constructors\\Constructors.csproj|solutionrelative:constructors\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{975C2958-BE4F-419F-B1A5-5F619C48D52D}|FieldAndProperties\\FieldAndProperties.csproj|c:\\users\\hp\\desktop\\cdac\\dotnet\\practice\\day01\\fieldandproperties\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{975C2958-BE4F-419F-B1A5-5F619C48D52D}|FieldAndProperties\\FieldAndProperties.csproj|solutionrelative:fieldandproperties\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\cdac\\dotNet\\practice\\day01\\InheritanceExamples\\Program.cs",
+              "RelativeDocumentMoniker": "InheritanceExamples\\Program.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\cdac\\dotNet\\practice\\day01\\InheritanceExamples\\Program.cs*",
+              "RelativeToolTip": "InheritanceExamples\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T19:53:20.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\cdac\\dotNet\\practice\\day01\\StaticMembers\\Program.cs",
+              "RelativeDocumentMoniker": "StaticMembers\\Program.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\cdac\\dotNet\\practice\\day01\\StaticMembers\\Program.cs",
+              "RelativeToolTip": "StaticMembers\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T19:22:38.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\cdac\\dotNet\\practice\\day01\\Constructors\\Program.cs",
+              "RelativeDocumentMoniker": "Constructors\\Program.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\cdac\\dotNet\\practice\\day01\\Constructors\\Program.cs",
+              "RelativeToolTip": "Constructors\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T19:01:43.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\cdac\\dotNet\\practice\\day01\\FieldAndProperties\\Program.cs",
+              "RelativeDocumentMoniker": "FieldAndProperties\\Program.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\cdac\\dotNet\\practice\\day01\\FieldAndProperties\\Program.cs",
+              "RelativeToolTip": "FieldAndProperties\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T18:18:42.863Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

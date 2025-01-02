@@ -1,0 +1,15 @@
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\ObjectInitializer\bin\Debug\net8.0\ObjectInitializer.exe
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\ObjectInitializer\bin\Debug\net8.0\ObjectInitializer.deps.json
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\ObjectInitializer\bin\Debug\net8.0\ObjectInitializer.runtimeconfig.json
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\ObjectInitializer\bin\Debug\net8.0\ObjectInitializer.dll
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\ObjectInitializer\bin\Debug\net8.0\ObjectInitializer.pdb
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\ObjectInitializer\obj\Debug\net8.0\ObjectInitializer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\ObjectInitializer\obj\Debug\net8.0\ObjectInitializer.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\ObjectInitializer\obj\Debug\net8.0\ObjectInitializer.AssemblyInfo.cs
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\ObjectInitializer\obj\Debug\net8.0\ObjectInitializer.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\ObjectInitializer\obj\Debug\net8.0\ObjectInitializer.sourcelink.json
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\ObjectInitializer\obj\Debug\net8.0\ObjectInitializer.dll
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\ObjectInitializer\obj\Debug\net8.0\refint\ObjectInitializer.dll
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\ObjectInitializer\obj\Debug\net8.0\ObjectInitializer.pdb
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\ObjectInitializer\obj\Debug\net8.0\ObjectInitializer.genruntimeconfig.cache
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\ObjectInitializer\obj\Debug\net8.0\ref\ObjectInitializer.dll

@@ -1,0 +1,15 @@
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\ClassBasic\bin\Debug\net8.0\ClassBasic.exe
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\ClassBasic\bin\Debug\net8.0\ClassBasic.deps.json
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\ClassBasic\bin\Debug\net8.0\ClassBasic.runtimeconfig.json
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\ClassBasic\bin\Debug\net8.0\ClassBasic.dll
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\ClassBasic\bin\Debug\net8.0\ClassBasic.pdb
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\ClassBasic\obj\Debug\net8.0\ClassBasic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\ClassBasic\obj\Debug\net8.0\ClassBasic.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\ClassBasic\obj\Debug\net8.0\ClassBasic.AssemblyInfo.cs
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\ClassBasic\obj\Debug\net8.0\ClassBasic.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\ClassBasic\obj\Debug\net8.0\ClassBasic.sourcelink.json
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\ClassBasic\obj\Debug\net8.0\ClassBasic.dll
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\ClassBasic\obj\Debug\net8.0\refint\ClassBasic.dll
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\ClassBasic\obj\Debug\net8.0\ClassBasic.pdb
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\ClassBasic\obj\Debug\net8.0\ClassBasic.genruntimeconfig.cache
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\ClassBasic\obj\Debug\net8.0\ref\ClassBasic.dll

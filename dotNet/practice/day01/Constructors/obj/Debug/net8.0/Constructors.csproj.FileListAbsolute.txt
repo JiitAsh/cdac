@@ -1,0 +1,15 @@
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\Constructors\bin\Debug\net8.0\Constructors.exe
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\Constructors\bin\Debug\net8.0\Constructors.deps.json
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\Constructors\bin\Debug\net8.0\Constructors.runtimeconfig.json
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\Constructors\bin\Debug\net8.0\Constructors.dll
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\Constructors\bin\Debug\net8.0\Constructors.pdb
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\Constructors\obj\Debug\net8.0\Constructors.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\Constructors\obj\Debug\net8.0\Constructors.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\Constructors\obj\Debug\net8.0\Constructors.AssemblyInfo.cs
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\Constructors\obj\Debug\net8.0\Constructors.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\Constructors\obj\Debug\net8.0\Constructors.sourcelink.json
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\Constructors\obj\Debug\net8.0\Constructors.dll
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\Constructors\obj\Debug\net8.0\refint\Constructors.dll
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\Constructors\obj\Debug\net8.0\Constructors.pdb
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\Constructors\obj\Debug\net8.0\Constructors.genruntimeconfig.cache
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\Constructors\obj\Debug\net8.0\ref\Constructors.dll

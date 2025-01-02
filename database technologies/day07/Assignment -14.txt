@@ -1,0 +1,135 @@
+1. Write a stored procedure which will display all employees working in dept 30.
+
+mysql> delimiter //
+mysql> create procedure display()
+    -> begin
+    ->  select * from emp
+    ->  where deptno=30;
+    -> end //
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> delimiter ;
+mysql> call display() ;
++-------+--------+----------+------+------------+---------+---------+--------+
+| EMPNO | ENAME  | JOB      | MGR  | HIREDATE   | SAL     | COMM    | DEPTNO |
++-------+--------+----------+------+------------+---------+---------+--------+
+|  7499 | ALLEN  | SALESMAN | 7698 | 1981-02-20 | 1600.00 |  300.00 |     30 |
+|  7521 | WARD   | SALESMAN | 7698 | 1981-02-22 | 1250.00 |  500.00 |     30 |
+|  7654 | MARTIN | SALESMAN | 7698 | 1981-09-28 | 1250.00 | 1400.00 |     30 |
+|  7698 | BLAKE  | MANAGER  | 7839 | 1981-05-01 | 2850.00 |    NULL |     30 |
+|  7844 | TURNER | SALESMAN | 7698 | 1981-09-08 | 1500.00 |    0.00 |     30 |
+|  7900 | JAMES  | CLERK    | 7698 | 1981-12-03 |  950.00 |    NULL |     30 |
++-------+--------+----------+------+------------+---------+---------+--------+
+6 rows in set (0.01 sec)
+
+
+
+
+
+
+
+2. Write a stored procedure which will display count of all analysts in the emp table.
+
+mysql> delimiter //
+mysql> create procedure count_analyst()
+    -> begin
+    ->  select count(*) from emp
+    ->  where job='analyst' ;
+    -> end //
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> delimiter ;
+mysql> call count_analyst;
++----------+
+| count(*) |
++----------+
+|        3 |
++----------+
+1 row in set (0.01 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+
+
+
+
+
+
+
+3.Write a stored procedure which will find avg salary for any deptno passed to it.  Pass deptno as     in parameter  .
+
+mysql> delimiter //
+mysql> create procedure avg_sal(IN p_deptno int)
+    -> begin
+    ->  select deptno, avg(sal)
+    ->  from emp
+    ->  where deptno=p_deptno
+    ->  group by deptno ;
+    -> end //
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> delimiter ;
+mysql> call avg_sal(30) ;
++--------+-------------+
+| deptno | avg(sal)    |
++--------+-------------+
+|     30 | 1566.666667 |
++--------+-------------+
+1 row in set (0.02 sec)
+
+Query OK, 0 rows affected (0.02 sec)
+
+mysql> call avg_sal(20) ;
++--------+-------------+
+| deptno | avg(sal)    |
++--------+-------------+
+|     20 | 3479.166667 |
++--------+-------------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+
+
+
+
+
+
+
+4. Pass empno,ename,sal to the procedure and insert it into the table.   
+
+mysql> delimiter //
+mysql> create procedure insert_data(IN p_empno int, IN p_ename varchar(12), IN p_sal decimal(7,2) )
+    -> begin
+    ->  insert into emp (empno, ename, sal)
+    ->  values (p_empno, p_ename, p_sal);
+    -> end //
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> delimiter ;
+mysql> call insert_data(9999, 'TRUMP', 1200);
+Query OK, 1 row affected (0.01 sec)
+
+mysql> select * from emp;
++-------+--------+-----------+------+------------+----------+---------+--------+
+| EMPNO | ENAME  | JOB       | MGR  | HIREDATE   | SAL      | COMM    | DEPTNO |
++-------+--------+-----------+------+------------+----------+---------+--------+
+|  7369 | SMITH  | CLERK     | 7902 | 1980-12-17 |   800.00 |    NULL |     20 |
+|  7499 | ALLEN  | SALESMAN  | 7698 | 1981-02-20 |  1600.00 |  300.00 |     30 |
+|  7521 | WARD   | SALESMAN  | 7698 | 1981-02-22 |  1250.00 |  500.00 |     30 |
+|  7566 | JONES  | MANAGER   | 7839 | 1981-04-02 |  2975.00 |    NULL |     20 |
+|  7654 | MARTIN | SALESMAN  | 7698 | 1981-09-28 |  1250.00 | 1400.00 |     30 |
+|  7698 | BLAKE  | MANAGER   | 7839 | 1981-05-01 |  2850.00 |    NULL |     30 |
+|  7782 | CLARK  | MANAGER   | 7839 | 1981-06-09 |  2450.00 |    NULL |     10 |
+|  7788 | SCOTT  | ANALYST   | 7566 | 1982-12-09 |  3000.00 |    NULL |     20 |
+|  7839 | KING   | PRESIDENT | NULL | 1981-11-17 |  5000.00 |    NULL |     10 |
+|  7844 | TURNER | SALESMAN  | 7698 | 1981-09-08 |  1500.00 |    0.00 |     30 |
+|  7876 | ADAMS  | CLERK     | 7788 | 1983-01-12 |  1100.00 |    NULL |     20 |
+|  7900 | JAMES  | CLERK     | 7698 | 1981-12-03 |   950.00 |    NULL |     30 |
+|  7902 | FORD   | ANALYST   | 7566 | 1981-12-03 |  3000.00 |    NULL |     20 |
+|  7934 | MILLER | CLERK     | 7782 | 1982-01-23 |  1300.00 |    NULL |     10 |
+|  1111 | Geeta  | NULL      | NULL | NULL       | 10000.00 |  300.00 |     20 |
+|  2222 | Raj    | Analyst   | NULL | NULL       |     NULL |    NULL |     20 |
+|  9999 | TRUMP  | NULL      | NULL | NULL       |  1200.00 |    NULL |   NULL |
++-------+--------+-----------+------+------------+----------+---------+--------+
+17 rows in set (0.00 sec) 

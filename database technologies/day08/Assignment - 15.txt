@@ -1,0 +1,504 @@
+1. Write a procedure which accepts in parameter
+as empno and calculates total salary for that employee. Display salary out of procedure.
+total salary = sal +comm
+
+mysql> delimiter //
+mysql> create procedure total_sal(in p_empno int, out p_total_sal decimal(7,2))
+    -> begin
+    ->  select sal+ifnull(comm,0) into p_total_sal
+    ->  from emp
+    ->  where empno=p_empno;
+    -> end //
+Query OK, 0 rows affected (0.02 sec)
+
+mysql> delimiter ;
+
+mysql> call total_sal(7499, @ts);
+Query OK, 1 row affected (0.00 sec)
+
+mysql> select @ts 'total salary';
++--------------+
+| total salary |
++--------------+
+|      1900.00 |
++--------------+
+1 row in set (0.00 sec)
+
+
+
+
+
+
+
+
+
+
+2.Write a procedure which takes empno of 2 employees. Compare salaries of employees and display ename,sal and job for the employee who
+earns more salary out of procedure. 
+
+
+mysql> delimiter //
+mysql> create procedure who_earns_more(in p_empno1 int, in p_empno2 int, out p_ename varchar(12), out p_job varchar(9), out p_sal decimal(7,2))
+    -> begin
+    ->  declare emp1_sal decimal(7,2) default 0;
+    ->  declare emp2_sal decimal(7,2) default 0;
+    ->  select sal into emp1_sal from emp where empno=p_empno1;
+    ->  select sal into emp2_sal from emp where empno=p_empno2;
+    ->  if emp1_sal > emp2_sal
+    ->   then
+    ->    select ename, job, sal
+    ->    into p_ename, p_job, p_sal
+    ->    from emp
+    ->    where empno=p_empno1;
+    ->  else
+    ->   select ename, job, sal
+    ->   into p_ename, p_job, p_sal
+    ->   from emp
+    ->   where empno=p_empno2;
+    -> end if;
+    -> end //
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> delimiter ;
+
+mysql> call who_earns_more(7654, 7698, @n, @j, @s);
+Query OK, 1 row affected (0.00 sec)
+
+mysql> select @n ename, @j job, @s salary;
++-------+---------+---------+
+| ename | job     | salary  |
++-------+---------+---------+
+| BLAKE | MANAGER | 2850.00 |
++-------+---------+---------+
+1 row in set (0.00 sec)
+
+mysql> call who_earns_more(7698,7788, @n, @j, @s);
+Query OK, 1 row affected (0.00 sec)
+
+mysql> select @n ename, @j job, @s salary;
++-------+---------+---------+
+| ename | job     | salary  |
++-------+---------+---------+
+| SCOTT | ANALYST | 3000.00 |
++-------+---------+---------+
+1 row in set (0.00 sec)
+
+
+
+
+
+
+
+
+
+
+
+
+
+3. Write a procedure which accepts ename and job as parameters and calculates salary hike depending on job.
+
+   if employee is clerk then hike is 10%
+   if employee is salesman then hike is 7%
+   if employee is analyst then hike is 5%
+   others no hike
+
+mysql> delimiter //
+mysql> create procedure hike_sal(mename varchar(12), mjob varchar(10), out hiked_sal decimal(7,2))
+    -> begin
+    ->  if mjob='clerk'
+    ->  then
+    ->   select round(sal+ (sal*0.10),2) into hiked_sal from emp where ename=mename;
+    ->  elseif mjob='salesman'
+    ->  then
+    ->   select round(sal+ (sal*0.07),2) into hiked_sal from emp where ename=mename;
+    ->  elseif mjob='analyst'
+    ->  then
+    ->   select round(sal+ (sal*0.05),2) into hiked_sal from emp where ename=mename;
+    ->  else
+    ->   select 0.00 into hiked_sal;
+    ->  end if;
+    -> end //
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> delimiter ;
+
+mysql> call hike_sal('adams', 'clerk', @hs);
+Query OK, 1 row affected (0.00 sec)
+
+mysql> select @hs as "hiked_salary";
++--------------+
+| hiked_salary |
++--------------+
+|      1210.00 |
++--------------+
+1 row in set (0.00 sec)
+
+
+
+
+
+
+
+
+
+4. Pass empno to the procedure. Find if employee exists in the table. If so, print sal out of procedure else print sal as 0.
+
+mysql> delimiter //
+mysql> create procedure find_emp(p_empno int,out p_sal decimal(7,2))
+    -> begin
+    ->  declare v_empno int default 0;
+    ->  select empno into v_empno
+    ->  from emp
+    ->  where empno=p_empno;
+    ->
+    ->  if v_empno!=0
+    ->  then
+    ->   select sal into p_sal
+    ->   from emp
+    ->   where empno=p_empno;
+    ->  else
+    ->   set p_sal = 0.00 ;
+    ->  end if;
+    -> end //
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> delimiter ;
+
+
+mysql> call find_emp(7369, @s);
+Query OK, 1 row affected (0.00 sec)
+
+mysql> select @s salary;
++--------+
+| salary |
++--------+
+| 800.00 |
++--------+
+1 row in set (0.00 sec)
+
+mysql> call find_emp(7777, @s);
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> select @s salary;
++--------+
+| salary |
++--------+
+|   0.00 |
++--------+
+1 row in set (0.00 sec)
+
+
+
+
+
+
+
+
+
+5. Write a function which will display email for employees working as salesman.
+   email generated is as follows
+   2nd and 3rd letter of name+last 2 letters of job in caps + deptno+'@mycompany.com'.
+
+
+mysql> delimiter //
+mysql> create function email_generator(p_ename varchar(12), p_job varchar(9), p_deptno int)
+    -> returns varchar(20)
+    -> begin
+    ->  declare v_email varchar(20);
+    ->  set v_email = concat(upper(substr(p_ename, 2, 2)), upper(substr(p_job, length(p_job)-2   +1)), p_deptno, '@mycompany.com');
+    ->  return v_email;
+    -> end //
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> delimiter ;
+
+mysql> select ename, job, deptno, email_generator(ename, job, deptno) email from
+ emp where job='salesman' ;
++--------+----------+--------+----------------------+
+| ename  | job      | deptno | email                |
++--------+----------+--------+----------------------+
+| ALLEN  | SALESMAN |     30 | LLAN30@mycompany.com |
+| WARD   | SALESMAN |     30 | ARAN30@mycompany.com |
+| MARTIN | SALESMAN |     30 | ARAN30@mycompany.com |
+| TURNER | SALESMAN |     30 | URAN30@mycompany.com |
++--------+----------+--------+----------------------+
+4 rows in set (0.00 sec)
+
+
+
+
+
+
+
+
+
+
+6. Write a function which will return square of the number.
+   Call this function in the procedure 'calculate'. Pass any number to this procedure and call a function in the procedure by passing
+   a number.
+
+mysql> delimiter //
+mysql> create function square(p_no int)
+    -> returns int
+    -> begin
+    ->  declare x int default 0;
+    ->  set x = p_no*p_no;
+    ->  return x;
+    -> end //
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> delimiter ;
+
+
+mysql> delimiter //
+mysql> create procedure find_square(p_no int)
+    -> begin
+    ->  select square(p_no) square_is;
+    -> end //
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> delimiter ;
+
+
+
+mysql> call find_square(3);
++-----------+
+| square_is |
++-----------+
+|         9 |
++-----------+
+1 row in set (0.01 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> call find_square(13);
++-----------+
+| square_is |
++-----------+
+|       169 |
++-----------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+
+
+
+
+
+
+
+  
+7. wite a cursor which will display salary hike as follows
+   if employee is clerk then hike is 10%
+   if employee is salesman then hike is 7%
+   if employee is analyst then hike is 5%
+   others no hike
+
+**** my approach is, first i'm creating a function for hike_sal and then i'll use it in procedure to create a cursor.
+
+
+
+mysql> delimiter //
+mysql> create function hiked_sal(p_sal decimal(7,2), p_job varchar(9))
+    -> returns decimal(7,2)
+    -> begin
+    ->  declare v_sal decimal default 0;
+    ->  if p_job='clerk'
+    ->  then
+    ->   set v_sal = round(p_sal*1.10, 2);
+    ->  elseif p_job='salesman'
+    ->  then
+    ->   set v_sal = round(p_sal*1.07, 2);
+    ->  elseif p_job='analyst'
+    ->  then
+    ->   set v_sal = round(p_sal*1.05, 2);
+    ->  else
+    ->   set v_sal = p_sal ;
+    ->  end if ;
+    ->  return v_sal;
+    -> end //
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> delimiter ;
+
+
+mysql> delimiter //
+mysql> create procedure hike_sal_cursor()
+    -> begin
+    ->  declare v_name varchar(12);
+    ->  declare v_job varchar(9);
+    ->  declare v_sal decimal(7,2);
+    ->  declare v_sal_hike decimal(7,2);
+    ->
+    ->  declare flag int default 0;
+    ->
+    ->  declare curr cursor for
+    ->  select ename, job, sal, hiked_sal(sal, job) from emp;
+    ->
+    ->  declare continue handler for not found set flag = 1;
+    ->
+    ->  open curr;
+    ->
+    ->  label:loop
+    ->   fetch curr into v_name, v_job, v_sal, v_sal_hike;
+    ->   select v_name ename, v_job job, v_sal sal, v_sal_hike sal_after_hike;
+    ->  if flag = 1
+    ->  then
+    ->   leave label;
+    ->  end if;
+    ->  end loop;
+    ->  close curr;
+    -> end //
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> delimiter ;
+
+
+
+mysql> call hike_sal_cursor();
++-------+-------+--------+----------------+
+| ename | job   | sal    | sal_after_hike |
++-------+-------+--------+----------------+
+| SMITH | CLERK | 800.00 |         880.00 |
++-------+-------+--------+----------------+
+1 row in set (0.00 sec)
+
++-------+----------+---------+----------------+
+| ename | job      | sal     | sal_after_hike |
++-------+----------+---------+----------------+
+| ALLEN | SALESMAN | 1600.00 |        1712.00 |
++-------+----------+---------+----------------+
+1 row in set (0.01 sec)
+
++-------+----------+---------+----------------+
+| ename | job      | sal     | sal_after_hike |
++-------+----------+---------+----------------+
+| WARD  | SALESMAN | 1250.00 |        1338.00 |
++-------+----------+---------+----------------+
+1 row in set (0.02 sec)
+
++-------+---------+---------+----------------+
+| ename | job     | sal     | sal_after_hike |
++-------+---------+---------+----------------+
+| JONES | MANAGER | 2975.00 |        2975.00 |
++-------+---------+---------+----------------+
+1 row in set (0.03 sec)
+
++--------+----------+---------+----------------+
+| ename  | job      | sal     | sal_after_hike |
++--------+----------+---------+----------------+
+| MARTIN | SALESMAN | 1250.00 |        1338.00 |
++--------+----------+---------+----------------+
+1 row in set (0.04 sec)
+
++-------+---------+---------+----------------+
+| ename | job     | sal     | sal_after_hike |
++-------+---------+---------+----------------+
+| BLAKE | MANAGER | 2850.00 |        2850.00 |
++-------+---------+---------+----------------+
+1 row in set (0.05 sec)
+
++-------+---------+---------+----------------+
+| ename | job     | sal     | sal_after_hike |
++-------+---------+---------+----------------+
+| CLARK | MANAGER | 2450.00 |        2450.00 |
++-------+---------+---------+----------------+
+1 row in set (0.05 sec)
+
++-------+---------+---------+----------------+
+| ename | job     | sal     | sal_after_hike |
++-------+---------+---------+----------------+
+| SCOTT | ANALYST | 3000.00 |        3150.00 |
++-------+---------+---------+----------------+
+1 row in set (0.06 sec)
+
++-------+-----------+---------+----------------+
+| ename | job       | sal     | sal_after_hike |
++-------+-----------+---------+----------------+
+| KING  | PRESIDENT | 5000.00 |        5000.00 |
++-------+-----------+---------+----------------+
+1 row in set (0.07 sec)
+
++--------+----------+---------+----------------+
+| ename  | job      | sal     | sal_after_hike |
++--------+----------+---------+----------------+
+| TURNER | SALESMAN | 1500.00 |        1605.00 |
++--------+----------+---------+----------------+
+1 row in set (0.07 sec)
+
++-------+-------+---------+----------------+
+| ename | job   | sal     | sal_after_hike |
++-------+-------+---------+----------------+
+| ADAMS | CLERK | 1100.00 |        1210.00 |
++-------+-------+---------+----------------+
+1 row in set (0.08 sec)
+
++-------+-------+--------+----------------+
+| ename | job   | sal    | sal_after_hike |
++-------+-------+--------+----------------+
+| JAMES | CLERK | 950.00 |        1045.00 |
++-------+-------+--------+----------------+
+1 row in set (0.08 sec)
+
++-------+---------+---------+----------------+
+| ename | job     | sal     | sal_after_hike |
++-------+---------+---------+----------------+
+| FORD  | ANALYST | 3000.00 |        3150.00 |
++-------+---------+---------+----------------+
+1 row in set (0.09 sec)
+
++--------+-------+---------+----------------+
+| ename  | job   | sal     | sal_after_hike |
++--------+-------+---------+----------------+
+| MILLER | CLERK | 1300.00 |        1430.00 |
++--------+-------+---------+----------------+
+1 row in set (0.09 sec)
+
++-------+------+----------+----------------+
+| ename | job  | sal      | sal_after_hike |
++-------+------+----------+----------------+
+| Geeta | NULL | 10000.00 |       10000.00 |
++-------+------+----------+----------------+
+1 row in set (0.10 sec)
+
++-------+---------+------+----------------+
+| ename | job     | sal  | sal_after_hike |
++-------+---------+------+----------------+
+| Raj   | Analyst | NULL |           NULL |
++-------+---------+------+----------------+
+1 row in set (0.10 sec)
+
++-------+------+---------+----------------+
+| ename | job  | sal     | sal_after_hike |
++-------+------+---------+----------------+
+| TRUMP | NULL | 1200.00 |        1200.00 |
++-------+------+---------+----------------+
+1 row in set (0.11 sec)
+
++-------+------+---------+----------------+
+| ename | job  | sal     | sal_after_hike |
++-------+------+---------+----------------+
+| TRUMP | NULL | 1200.00 |        1200.00 |
++-------+------+---------+----------------+
+1 row in set (0.11 sec)
+
+Query OK, 0 rows affected (0.12 sec)
+
+
+
+
+
+
+8. Try creating index.
+
+create index index_sal on emp(sal);
+
+
+
+
+
+
+9. Practice commit and rollback.
+
+done

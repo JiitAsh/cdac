@@ -1,0 +1,15 @@
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\FieldAndProperties\bin\Debug\net8.0\FieldAndProperties.exe
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\FieldAndProperties\bin\Debug\net8.0\FieldAndProperties.deps.json
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\FieldAndProperties\bin\Debug\net8.0\FieldAndProperties.runtimeconfig.json
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\FieldAndProperties\bin\Debug\net8.0\FieldAndProperties.dll
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\FieldAndProperties\bin\Debug\net8.0\FieldAndProperties.pdb
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\FieldAndProperties\obj\Debug\net8.0\FieldAndProperties.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\FieldAndProperties\obj\Debug\net8.0\FieldAndProperties.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\FieldAndProperties\obj\Debug\net8.0\FieldAndProperties.AssemblyInfo.cs
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\FieldAndProperties\obj\Debug\net8.0\FieldAndProperties.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\FieldAndProperties\obj\Debug\net8.0\FieldAndProperties.sourcelink.json
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\FieldAndProperties\obj\Debug\net8.0\FieldAndProperties.dll
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\FieldAndProperties\obj\Debug\net8.0\refint\FieldAndProperties.dll
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\FieldAndProperties\obj\Debug\net8.0\FieldAndProperties.pdb
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\FieldAndProperties\obj\Debug\net8.0\FieldAndProperties.genruntimeconfig.cache
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\FieldAndProperties\obj\Debug\net8.0\ref\FieldAndProperties.dll

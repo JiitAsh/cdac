@@ -1,0 +1,7 @@
+Assigments 1 :
+Find the Difference between HTTP 1 / 2 /
+Create an Html page index.html
+Practice all the Block Level Elements and Inline Elements
+
+Check in Browser Developer tools how the elements are rendered.
+

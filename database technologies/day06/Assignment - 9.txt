@@ -1,0 +1,337 @@
+1. Display all employees who earn sal more that Smith earns.
+
+mysql> select ename,sal
+    -> from emp
+    -> where sal>(select sal
+    ->    from emp
+    ->    where ename='smith');
++--------+---------+
+| ename  | sal     |
++--------+---------+
+| ALLEN  | 1600.00 |
+| WARD   | 1250.00 |
+| JONES  | 2975.00 |
+| MARTIN | 1250.00 |
+| BLAKE  | 2850.00 |
+| CLARK  | 2450.00 |
+| SCOTT  | 3000.00 |
+| KING   | 5000.00 |
+| TURNER | 1500.00 |
+| ADAMS  | 1100.00 |
+| JAMES  |  950.00 |
+| FORD   | 3000.00 |
+| MILLER | 1300.00 |
++--------+---------+
+13 rows in set (0.00 sec)
+
+
+
+
+
+
+2. Display all employees who are working in Smith's department.
+
+mysql> select ename
+    -> from emp
+    -> where deptno=(select deptno
+    -> from emp
+    -> where ename='smith');
++-------+
+| ename |
++-------+
+| SMITH |
+| JONES |
+| SCOTT |
+| ADAMS |
+| FORD  |
++-------+
+5 rows in set (0.00 sec)
+
+
+
+
+
+
+
+3. Display all employees who earn salary < Scott and salary > Adams sal.
+
+mysql>  select ename,sal
+    -> from emp
+    -> where sal > (select sal from emp where ename='adams') and  sal < (select sal from emp where ename='scott');
++--------+---------+
+| ename  | sal     |
++--------+---------+
+| ALLEN  | 1600.00 |
+| WARD   | 1250.00 |
+| JONES  | 2975.00 |
+| MARTIN | 1250.00 |
+| BLAKE  | 2850.00 |
+| CLARK  | 2450.00 |
+| TURNER | 1500.00 |
+| MILLER | 1300.00 |
++--------+---------+
+8 rows in set (0.00 sec)
+
+
+
+
+
+
+4. Display all employees with salary > either Ward's  salary or Blake's sal.
+ 
+mysql> select ename,sal
+    ->  from emp
+    ->  where sal > any (select sal
+    -> from emp
+    -> where ename in ('ward','blake'));
++--------+---------+
+| ename  | sal     |
++--------+---------+
+| ALLEN  | 1600.00 |
+| JONES  | 2975.00 |
+| BLAKE  | 2850.00 |
+| CLARK  | 2450.00 |
+| SCOTT  | 3000.00 |
+| KING   | 5000.00 |
+| TURNER | 1500.00 |
+| FORD   | 3000.00 |
+| MILLER | 1300.00 |
++--------+---------+
+9 rows in set (0.01 sec)
+
+
+
+
+
+
+5. Display all employees who earn more than average sal of dept 10.
+ 
+mysql> select ename,sal
+    -> from emp
+    -> where sal>(select avg(sal)
+    ->    from emp
+    ->    where deptno=10);
++-------+---------+
+| ename | sal     |
++-------+---------+
+| JONES | 2975.00 |
+| SCOTT | 3000.00 |
+| KING  | 5000.00 |
+| FORD  | 3000.00 |
++-------+---------+
+4 rows in set (0.00 sec)
+
+
+
+
+
+
+6. Display all employees who are working in research department.
+ 
+mysql> select ename, deptno
+    -> from emp
+    -> where deptno=(select deptno
+    -> from dept
+    -> where dname='research');
++-------+--------+
+| ename | deptno |
++-------+--------+
+| SMITH |     20 |
+| JONES |     20 |
+| SCOTT |     20 |
+| ADAMS |     20 |
+| FORD  |     20 |
++-------+--------+
+5 rows in set (0.00 sec)
+
+
+
+
+
+
+7. Display deptno, sum of salary  and min(sal) for all employees who are managers.
+
+mysql> select empno, ename, sum(sal) over(partition by job) as total_sal , min(sal) over(partition by job) as min_sal
+    -> from emp
+    -> where empno =any(select empno
+    ->    from emp
+    ->   where job='manager');
++-------+-------+-----------+---------+
+| empno | ename | total_sal | min_sal |
++-------+-------+-----------+---------+
+|  7566 | JONES |   8275.00 | 2450.00 |
+|  7698 | BLAKE |   8275.00 | 2450.00 |
+|  7782 | CLARK |   8275.00 | 2450.00 |
++-------+-------+-----------+---------+
+3 rows in set (0.00 sec)
+
+
+
+
+
+
+
+
+
+Create following tables and solve the  queries
+
+1. create table category(cid int primary key auto_increment, cname varchar (15) unique not null, description varchar(30))
+-----------------------------------------------------          
+cid    cname                   description
+------------------------------------------------------
+1      chips                   very crunchy
+2      chocolate               very chocolaty
+3      snacks                  yummy
+4      cold drinks             thanda thanda cool cool
+
+2. create table Product(pid  int primary key, pname varchar (20), price float (6,2) default 20.00, qty int check(qty>0),  
+   cid int  ,   sid int,   constraint fk_cid foreign key(cid) references category(cid) on delete set null, 
+   constraint fk_sid foreign key(sid) references salesman(sid));
+-----------------------------------------------------------------------
+   prodid      pname         qty        price       catid        sid 
+-----------------------------------------------------------------------
+   123         lays          30         30.00        1           12
+   111         pepsi         40         50.00        4           11
+   134         nachos        50         50.00        1           12
+   124         dairy milk    40         60.00        2           14 
+   125         pringles      40         60.00        1           14
+   213         Sketch Pens   56         150.00       null        11
+   167         eraser        90         5.00         null        null
+
+3. create table salesman(sid int primary key, sname varchar (15) unique not null, city varchar(15))
+--------------------------------- 
+sid     sname           city
+---------------------------------
+11      Rahul           Pune
+12      Kirti           Mumbai
+13      Prasad          Nashik
+14      Arnav           Amravati
+
+
+
+
+
+
+
+
+
+
+1. List all pid, pname, cid, cname  with category chips
+
+mysql> select p.pid, p.pname, c.cid, c.cname from product p , category c where c.cid=p.cid and c.cname='chips';
++-----+----------+-----+-------+
+| pid | pname    | cid | cname |
++-----+----------+-----+-------+
+| 123 | lays     |   1 | chips |
+| 125 | pringles |   1 | chips |
+| 134 | nachos   |   1 | chips |
++-----+----------+-----+-------+
+3 rows in set (0.00 sec)
+
+
+
+ 
+2. Display all products sold by kirti
+
+mysql> select p.pname, p.sid, s.sname from product p, salesman s where p.sid=s.sid and s.sname='kirti';
++--------+------+-------+
+| pname  | sid  | sname |
++--------+------+-------+
+| lays   |   12 | Kirti |
+| nachos |   12 | Kirti |
++--------+------+-------+
+2 rows in set (0.00 sec)
+
+
+
+
+3. Display all salesmen who did not sell any product
+
+mysql> select sid, sname from salesman where sid not in (select sid from product where sid is not null);
++-----+--------+
+| sid | sname  |
++-----+--------+
+|  13 | Prasad |
++-----+--------+
+1 row in set (0.00 sec)
+
+
+
+
+
+4. Display all category for which no product is assigned
+
+mysql> select cname from category where cid not in (select cid from product where cid is not null);
++--------+
+| cname  |
++--------+
+| snacks |
++--------+
+1 row in set (0.00 sec)
+
+
+
+
+5. Display all products to which  category is  not assigned
+
+mysql> select * from product where cid is null;
++-----+-------------+--------+------+------+------+
+| pid | pname       | price  | qty  | cid  | sid  |
++-----+-------------+--------+------+------+------+
+| 167 | eraser      |   5.00 |   90 | NULL | NULL |
+| 213 | Sketch Pens | 150.00 |   56 | NULL |   11 |
++-----+-------------+--------+------+------+------+
+2 rows in set (0.00 sec)
+
+
+
+
+ 
+6. List all salesmen who stays in city where  name starts with P or N
+
+mysql> select * from salesman where regexp_like(city, '^[pn]');
++-----+--------+--------+
+| sid | sname  | city   |
++-----+--------+--------+
+|  11 | Rahul  | Pune   |
+|  13 | Prasad | Nashik |
++-----+--------+--------+
+2 rows in set (0.00 sec)
+
+
+
+ 
+7. Add new column in salesman table by name credit limit.
+
+mysql> alter table salesman add column `credit_limit` int;
+Query OK, 0 rows affected (0.02 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> describe salesman;
++--------------+-------------+------+-----+---------+-------+
+| Field        | Type        | Null | Key | Default | Extra |
++--------------+-------------+------+-----+---------+-------+
+| sid          | int         | NO   | PRI | NULL    |       |
+| sname        | varchar(15) | NO   | UNI | NULL    |       |
+| city         | varchar(15) | YES  |     | NULL    |       |
+| credit_limit | int         | YES  |     | NULL    |       |
++--------------+-------------+------+-----+---------+-------+
+4 rows in set (0.00 sec)
+
+
+
+
+
+ 
+8. Write a query which will display dept no and dept names to which no employee is assigned dept  . Use emp and dept table.
+
+mysql> select deptno, dname from dept where deptno not in (select deptno from emp);
++--------+------------+
+| deptno | dname      |
++--------+------------+
+|     40 | OPERATIONS |
++--------+------------+
+1 row in set (0.00 sec)
+
+
+ 

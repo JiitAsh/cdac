@@ -1,0 +1,2 @@
+Create Spring Project (using application context) 
+1. create maven project > next > choose catalog as internal > and choose quickstart (maven-archtype-quickstart) > fill group id and artifact id (this will create package name, but you can change package name acc. to you) > finish 

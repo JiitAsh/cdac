@@ -1,0 +1,15 @@
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\StaticMembers\bin\Debug\net8.0\StaticMembers.exe
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\StaticMembers\bin\Debug\net8.0\StaticMembers.deps.json
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\StaticMembers\bin\Debug\net8.0\StaticMembers.runtimeconfig.json
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\StaticMembers\bin\Debug\net8.0\StaticMembers.dll
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\StaticMembers\bin\Debug\net8.0\StaticMembers.pdb
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\StaticMembers\obj\Debug\net8.0\StaticMembers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\StaticMembers\obj\Debug\net8.0\StaticMembers.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\StaticMembers\obj\Debug\net8.0\StaticMembers.AssemblyInfo.cs
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\StaticMembers\obj\Debug\net8.0\StaticMembers.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\StaticMembers\obj\Debug\net8.0\StaticMembers.sourcelink.json
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\StaticMembers\obj\Debug\net8.0\StaticMembers.dll
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\StaticMembers\obj\Debug\net8.0\refint\StaticMembers.dll
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\StaticMembers\obj\Debug\net8.0\StaticMembers.pdb
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\StaticMembers\obj\Debug\net8.0\StaticMembers.genruntimeconfig.cache
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\StaticMembers\obj\Debug\net8.0\ref\StaticMembers.dll
