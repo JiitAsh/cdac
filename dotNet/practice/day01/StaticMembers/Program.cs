@@ -41,5 +41,11 @@ namespace StaticMembers
             }
         }
 
+
+        //public class Std : Student     // cannot derive from static class
+        //{
+
+        //}
+
     }
 }

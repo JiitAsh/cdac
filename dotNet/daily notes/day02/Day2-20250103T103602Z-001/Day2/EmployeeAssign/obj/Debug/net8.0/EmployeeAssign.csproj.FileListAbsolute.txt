@@ -1,0 +1,14 @@
+D:\Trainings\ActsJan25\Day2\EmployeeAssign\obj\Debug\net8.0\EmployeeAssign.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trainings\ActsJan25\Day2\EmployeeAssign\obj\Debug\net8.0\EmployeeAssign.AssemblyInfoInputs.cache
+D:\Trainings\ActsJan25\Day2\EmployeeAssign\obj\Debug\net8.0\EmployeeAssign.AssemblyInfo.cs
+D:\Trainings\ActsJan25\Day2\EmployeeAssign\obj\Debug\net8.0\EmployeeAssign.csproj.CoreCompileInputs.cache
+D:\Trainings\ActsJan25\Day2\EmployeeAssign\bin\Debug\net8.0\EmployeeAssign.exe
+D:\Trainings\ActsJan25\Day2\EmployeeAssign\bin\Debug\net8.0\EmployeeAssign.deps.json
+D:\Trainings\ActsJan25\Day2\EmployeeAssign\bin\Debug\net8.0\EmployeeAssign.runtimeconfig.json
+D:\Trainings\ActsJan25\Day2\EmployeeAssign\bin\Debug\net8.0\EmployeeAssign.dll
+D:\Trainings\ActsJan25\Day2\EmployeeAssign\bin\Debug\net8.0\EmployeeAssign.pdb
+D:\Trainings\ActsJan25\Day2\EmployeeAssign\obj\Debug\net8.0\EmployeeAssign.dll
+D:\Trainings\ActsJan25\Day2\EmployeeAssign\obj\Debug\net8.0\refint\EmployeeAssign.dll
+D:\Trainings\ActsJan25\Day2\EmployeeAssign\obj\Debug\net8.0\EmployeeAssign.pdb
+D:\Trainings\ActsJan25\Day2\EmployeeAssign\obj\Debug\net8.0\EmployeeAssign.genruntimeconfig.cache
+D:\Trainings\ActsJan25\Day2\EmployeeAssign\obj\Debug\net8.0\ref\EmployeeAssign.dll

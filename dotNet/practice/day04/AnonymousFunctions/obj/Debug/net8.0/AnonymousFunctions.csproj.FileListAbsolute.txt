@@ -1,0 +1,15 @@
+C:\Users\hp\Desktop\cdac\dotNet\practice\day04\AnonymousFunctions\bin\Debug\net8.0\AnonymousFunctions.exe
+C:\Users\hp\Desktop\cdac\dotNet\practice\day04\AnonymousFunctions\bin\Debug\net8.0\AnonymousFunctions.deps.json
+C:\Users\hp\Desktop\cdac\dotNet\practice\day04\AnonymousFunctions\bin\Debug\net8.0\AnonymousFunctions.runtimeconfig.json
+C:\Users\hp\Desktop\cdac\dotNet\practice\day04\AnonymousFunctions\bin\Debug\net8.0\AnonymousFunctions.dll
+C:\Users\hp\Desktop\cdac\dotNet\practice\day04\AnonymousFunctions\bin\Debug\net8.0\AnonymousFunctions.pdb
+C:\Users\hp\Desktop\cdac\dotNet\practice\day04\AnonymousFunctions\obj\Debug\net8.0\AnonymousFunctions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\cdac\dotNet\practice\day04\AnonymousFunctions\obj\Debug\net8.0\AnonymousFunctions.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\cdac\dotNet\practice\day04\AnonymousFunctions\obj\Debug\net8.0\AnonymousFunctions.AssemblyInfo.cs
+C:\Users\hp\Desktop\cdac\dotNet\practice\day04\AnonymousFunctions\obj\Debug\net8.0\AnonymousFunctions.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\cdac\dotNet\practice\day04\AnonymousFunctions\obj\Debug\net8.0\AnonymousFunctions.sourcelink.json
+C:\Users\hp\Desktop\cdac\dotNet\practice\day04\AnonymousFunctions\obj\Debug\net8.0\AnonymousFunctions.dll
+C:\Users\hp\Desktop\cdac\dotNet\practice\day04\AnonymousFunctions\obj\Debug\net8.0\refint\AnonymousFunctions.dll
+C:\Users\hp\Desktop\cdac\dotNet\practice\day04\AnonymousFunctions\obj\Debug\net8.0\AnonymousFunctions.pdb
+C:\Users\hp\Desktop\cdac\dotNet\practice\day04\AnonymousFunctions\obj\Debug\net8.0\AnonymousFunctions.genruntimeconfig.cache
+C:\Users\hp\Desktop\cdac\dotNet\practice\day04\AnonymousFunctions\obj\Debug\net8.0\ref\AnonymousFunctions.dll

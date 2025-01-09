@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\hp\\Desktop\\cdac\\dotNet\\practice\\day01\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3B66C74D-F2C2-44F0-A005-17809251545A}|OverloadingHidingOverriding\\OverloadingHidingOverriding.csproj|c:\\users\\hp\\desktop\\cdac\\dotnet\\practice\\day01\\overloadinghidingoverriding\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B66C74D-F2C2-44F0-A005-17809251545A}|OverloadingHidingOverriding\\OverloadingHidingOverriding.csproj|solutionrelative:overloadinghidingoverriding\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{142434BB-CA9A-48CC-90EA-A6A2D8FB8F98}|AccessSpecifiers\\AccessSpecifiers.csproj|c:\\users\\hp\\desktop\\cdac\\dotnet\\practice\\day01\\accessspecifiers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{142434BB-CA9A-48CC-90EA-A6A2D8FB8F98}|AccessSpecifiers\\AccessSpecifiers.csproj|solutionrelative:accessspecifiers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5304B229-B00B-45A6-9071-FC542E9A41CB}|TestAccessSpecifiers\\TestAccessSpecifiers.csproj|c:\\users\\hp\\desktop\\cdac\\dotnet\\practice\\day01\\testaccessspecifiers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5304B229-B00B-45A6-9071-FC542E9A41CB}|TestAccessSpecifiers\\TestAccessSpecifiers.csproj|solutionrelative:testaccessspecifiers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3D349BF6-06D2-4A65-A17E-1DD42B29D943}|InheritanceExamples\\InheritanceExamples.csproj|c:\\users\\hp\\desktop\\cdac\\dotnet\\practice\\day01\\inheritanceexamples\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D349BF6-06D2-4A65-A17E-1DD42B29D943}|InheritanceExamples\\InheritanceExamples.csproj|solutionrelative:inheritanceexamples\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -32,31 +44,70 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\cdac\\dotNet\\practice\\day01\\InheritanceExamples\\Program.cs",
-              "RelativeDocumentMoniker": "InheritanceExamples\\Program.cs",
-              "ToolTip": "C:\\Users\\hp\\Desktop\\cdac\\dotNet\\practice\\day01\\InheritanceExamples\\Program.cs",
-              "RelativeToolTip": "InheritanceExamples\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\cdac\\dotNet\\practice\\day01\\OverloadingHidingOverriding\\Program.cs",
+              "RelativeDocumentMoniker": "OverloadingHidingOverriding\\Program.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\cdac\\dotNet\\practice\\day01\\OverloadingHidingOverriding\\Program.cs",
+              "RelativeToolTip": "OverloadingHidingOverriding\\Program.cs",
+              "ViewState": "AgIAAAMAAABgZWZmZmYkwBUAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T19:53:20.533Z",
+              "WhenOpened": "2025-01-03T11:28:07.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\cdac\\dotNet\\practice\\day01\\TestAccessSpecifiers\\Program.cs",
+              "RelativeDocumentMoniker": "TestAccessSpecifiers\\Program.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\cdac\\dotNet\\practice\\day01\\TestAccessSpecifiers\\Program.cs",
+              "RelativeToolTip": "TestAccessSpecifiers\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T11:11:11.119Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\cdac\\dotNet\\practice\\day01\\AccessSpecifiers\\Program.cs",
+              "RelativeDocumentMoniker": "AccessSpecifiers\\Program.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\cdac\\dotNet\\practice\\day01\\AccessSpecifiers\\Program.cs",
+              "RelativeToolTip": "AccessSpecifiers\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T11:00:07.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\cdac\\dotNet\\practice\\day01\\InheritanceExamples\\Program.cs",
+              "RelativeDocumentMoniker": "InheritanceExamples\\Program.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\cdac\\dotNet\\practice\\day01\\InheritanceExamples\\Program.cs",
+              "RelativeToolTip": "InheritanceExamples\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T10:52:44.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Desktop\\cdac\\dotNet\\practice\\day01\\StaticMembers\\Program.cs",
               "RelativeDocumentMoniker": "StaticMembers\\Program.cs",
               "ToolTip": "C:\\Users\\hp\\Desktop\\cdac\\dotNet\\practice\\day01\\StaticMembers\\Program.cs",
               "RelativeToolTip": "StaticMembers\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-02T19:22:38.585Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Desktop\\cdac\\dotNet\\practice\\day01\\Constructors\\Program.cs",
               "RelativeDocumentMoniker": "Constructors\\Program.cs",
@@ -64,12 +115,11 @@
               "RelativeToolTip": "Constructors\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T19:01:43.443Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-02T19:01:43.443Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Desktop\\cdac\\dotNet\\practice\\day01\\FieldAndProperties\\Program.cs",
               "RelativeDocumentMoniker": "FieldAndProperties\\Program.cs",
@@ -77,8 +127,7 @@
               "RelativeToolTip": "FieldAndProperties\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T18:18:42.863Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-02T18:18:42.863Z"
             }
           ]
         }

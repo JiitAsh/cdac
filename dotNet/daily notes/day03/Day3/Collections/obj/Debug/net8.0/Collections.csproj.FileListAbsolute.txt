@@ -1,0 +1,14 @@
+D:\Trainings\ActsJan25\Day3\Collections\bin\Debug\net8.0\Collections.exe
+D:\Trainings\ActsJan25\Day3\Collections\bin\Debug\net8.0\Collections.deps.json
+D:\Trainings\ActsJan25\Day3\Collections\bin\Debug\net8.0\Collections.runtimeconfig.json
+D:\Trainings\ActsJan25\Day3\Collections\bin\Debug\net8.0\Collections.dll
+D:\Trainings\ActsJan25\Day3\Collections\bin\Debug\net8.0\Collections.pdb
+D:\Trainings\ActsJan25\Day3\Collections\obj\Debug\net8.0\Collections.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trainings\ActsJan25\Day3\Collections\obj\Debug\net8.0\Collections.AssemblyInfoInputs.cache
+D:\Trainings\ActsJan25\Day3\Collections\obj\Debug\net8.0\Collections.AssemblyInfo.cs
+D:\Trainings\ActsJan25\Day3\Collections\obj\Debug\net8.0\Collections.csproj.CoreCompileInputs.cache
+D:\Trainings\ActsJan25\Day3\Collections\obj\Debug\net8.0\Collections.dll
+D:\Trainings\ActsJan25\Day3\Collections\obj\Debug\net8.0\refint\Collections.dll
+D:\Trainings\ActsJan25\Day3\Collections\obj\Debug\net8.0\Collections.pdb
+D:\Trainings\ActsJan25\Day3\Collections\obj\Debug\net8.0\Collections.genruntimeconfig.cache
+D:\Trainings\ActsJan25\Day3\Collections\obj\Debug\net8.0\ref\Collections.dll

@@ -1,0 +1,15 @@
+C:\Users\hp\Desktop\cdac\dotNet\practice\day02\AbstracClasses\bin\Debug\net8.0\AbstractClasses.exe
+C:\Users\hp\Desktop\cdac\dotNet\practice\day02\AbstracClasses\bin\Debug\net8.0\AbstractClasses.deps.json
+C:\Users\hp\Desktop\cdac\dotNet\practice\day02\AbstracClasses\bin\Debug\net8.0\AbstractClasses.runtimeconfig.json
+C:\Users\hp\Desktop\cdac\dotNet\practice\day02\AbstracClasses\bin\Debug\net8.0\AbstractClasses.dll
+C:\Users\hp\Desktop\cdac\dotNet\practice\day02\AbstracClasses\bin\Debug\net8.0\AbstractClasses.pdb
+C:\Users\hp\Desktop\cdac\dotNet\practice\day02\AbstracClasses\obj\Debug\net8.0\AbstractClasses.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\cdac\dotNet\practice\day02\AbstracClasses\obj\Debug\net8.0\AbstractClasses.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\cdac\dotNet\practice\day02\AbstracClasses\obj\Debug\net8.0\AbstractClasses.AssemblyInfo.cs
+C:\Users\hp\Desktop\cdac\dotNet\practice\day02\AbstracClasses\obj\Debug\net8.0\AbstractClasses.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\cdac\dotNet\practice\day02\AbstracClasses\obj\Debug\net8.0\AbstractClasses.sourcelink.json
+C:\Users\hp\Desktop\cdac\dotNet\practice\day02\AbstracClasses\obj\Debug\net8.0\AbstractClasses.dll
+C:\Users\hp\Desktop\cdac\dotNet\practice\day02\AbstracClasses\obj\Debug\net8.0\refint\AbstractClasses.dll
+C:\Users\hp\Desktop\cdac\dotNet\practice\day02\AbstracClasses\obj\Debug\net8.0\AbstractClasses.pdb
+C:\Users\hp\Desktop\cdac\dotNet\practice\day02\AbstracClasses\obj\Debug\net8.0\AbstractClasses.genruntimeconfig.cache
+C:\Users\hp\Desktop\cdac\dotNet\practice\day02\AbstracClasses\obj\Debug\net8.0\ref\AbstractClasses.dll

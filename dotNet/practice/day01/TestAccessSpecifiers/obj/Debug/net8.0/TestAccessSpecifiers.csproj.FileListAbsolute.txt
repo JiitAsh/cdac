@@ -1,0 +1,15 @@
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\TestAccessSpecifiers\bin\Debug\net8.0\TestAccessSpecifiers.exe
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\TestAccessSpecifiers\bin\Debug\net8.0\TestAccessSpecifiers.deps.json
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\TestAccessSpecifiers\bin\Debug\net8.0\TestAccessSpecifiers.runtimeconfig.json
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\TestAccessSpecifiers\bin\Debug\net8.0\TestAccessSpecifiers.dll
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\TestAccessSpecifiers\bin\Debug\net8.0\TestAccessSpecifiers.pdb
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\TestAccessSpecifiers\obj\Debug\net8.0\TestAccessSpecifiers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\TestAccessSpecifiers\obj\Debug\net8.0\TestAccessSpecifiers.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\TestAccessSpecifiers\obj\Debug\net8.0\TestAccessSpecifiers.AssemblyInfo.cs
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\TestAccessSpecifiers\obj\Debug\net8.0\TestAccessSpecifiers.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\TestAccessSpecifiers\obj\Debug\net8.0\TestAccessSpecifiers.sourcelink.json
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\TestAccessSpecifiers\obj\Debug\net8.0\TestAccessSpecifiers.dll
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\TestAccessSpecifiers\obj\Debug\net8.0\refint\TestAccessSpecifiers.dll
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\TestAccessSpecifiers\obj\Debug\net8.0\TestAccessSpecifiers.pdb
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\TestAccessSpecifiers\obj\Debug\net8.0\TestAccessSpecifiers.genruntimeconfig.cache
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\TestAccessSpecifiers\obj\Debug\net8.0\ref\TestAccessSpecifiers.dll

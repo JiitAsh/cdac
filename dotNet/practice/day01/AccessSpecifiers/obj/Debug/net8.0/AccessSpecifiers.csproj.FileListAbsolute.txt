@@ -1,0 +1,15 @@
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\AccessSpecifiers\bin\Debug\net8.0\AccessSpecifiers.exe
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\AccessSpecifiers\bin\Debug\net8.0\AccessSpecifiers.deps.json
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\AccessSpecifiers\bin\Debug\net8.0\AccessSpecifiers.runtimeconfig.json
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\AccessSpecifiers\bin\Debug\net8.0\AccessSpecifiers.dll
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\AccessSpecifiers\bin\Debug\net8.0\AccessSpecifiers.pdb
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\AccessSpecifiers\obj\Debug\net8.0\AccessSpecifiers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\AccessSpecifiers\obj\Debug\net8.0\AccessSpecifiers.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\AccessSpecifiers\obj\Debug\net8.0\AccessSpecifiers.AssemblyInfo.cs
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\AccessSpecifiers\obj\Debug\net8.0\AccessSpecifiers.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\AccessSpecifiers\obj\Debug\net8.0\AccessSpecifiers.sourcelink.json
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\AccessSpecifiers\obj\Debug\net8.0\AccessSpecifiers.dll
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\AccessSpecifiers\obj\Debug\net8.0\refint\AccessSpecifiers.dll
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\AccessSpecifiers\obj\Debug\net8.0\AccessSpecifiers.pdb
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\AccessSpecifiers\obj\Debug\net8.0\AccessSpecifiers.genruntimeconfig.cache
+C:\Users\hp\Desktop\cdac\dotNet\practice\day01\AccessSpecifiers\obj\Debug\net8.0\ref\AccessSpecifiers.dll

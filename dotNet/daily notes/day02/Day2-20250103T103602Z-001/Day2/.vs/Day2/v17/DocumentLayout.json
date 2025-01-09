@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hp\\Desktop\\cdac\\dotNet\\daily notes\\day02\\Day2-20250103T103602Z-001\\Day2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1DAFE5-C49B-4F06-A20C-9A7DE40A78AA}|ValueTypes\\ValueTypes.csproj|c:\\users\\hp\\desktop\\cdac\\dotnet\\daily notes\\day02\\day2-20250103t103602z-001\\day2\\valuetypes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1DAFE5-C49B-4F06-A20C-9A7DE40A78AA}|ValueTypes\\ValueTypes.csproj|solutionrelative:valuetypes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{342AB526-D3FF-489F-933A-A96DF964D19B}|RefAndValue2\\RefAndValue2.csproj|c:\\users\\hp\\desktop\\cdac\\dotnet\\daily notes\\day02\\day2-20250103t103602z-001\\day2\\refandvalue2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{342AB526-D3FF-489F-933A-A96DF964D19B}|RefAndValue2\\RefAndValue2.csproj|solutionrelative:refandvalue2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41F00919-BA3D-42AF-A9D0-606C9CB0E7D7}|RefAndValue\\RefAndValue.csproj|c:\\users\\hp\\desktop\\cdac\\dotnet\\daily notes\\day02\\day2-20250103t103602z-001\\day2\\refandvalue\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41F00919-BA3D-42AF-A9D0-606C9CB0E7D7}|RefAndValue\\RefAndValue.csproj|solutionrelative:refandvalue\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C971E87-3294-4AA0-AF2B-D90809DA9669}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\hp\\desktop\\cdac\\dotnet\\daily notes\\day02\\day2-20250103t103602z-001\\day2\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C971E87-3294-4AA0-AF2B-D90809DA9669}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3DA68D3-FE2C-492D-B388-75905E9159BB}|Interfaces\\Interfaces.csproj|c:\\users\\hp\\desktop\\cdac\\dotnet\\daily notes\\day02\\day2-20250103t103602z-001\\day2\\interfaces\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3DA68D3-FE2C-492D-B388-75905E9159BB}|Interfaces\\Interfaces.csproj|solutionrelative:interfaces\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B79FD91-45B6-4B8A-8C9A-4B46F64953BC}|DefaultImplementationOfinterfaces\\DefaultImplementationOfinterfaces.csproj|c:\\users\\hp\\desktop\\cdac\\dotnet\\daily notes\\day02\\day2-20250103t103602z-001\\day2\\defaultimplementationofinterfaces\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B79FD91-45B6-4B8A-8C9A-4B46F64953BC}|DefaultImplementationOfinterfaces\\DefaultImplementationOfinterfaces.csproj|solutionrelative:defaultimplementationofinterfaces\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF1ED2EB-D41F-42CA-B124-5F09E0FB29B5}|AbstractClasses\\AbstractClasses.csproj|c:\\users\\hp\\desktop\\cdac\\dotnet\\daily notes\\day02\\day2-20250103t103602z-001\\day2\\abstractclasses\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF1ED2EB-D41F-42CA-B124-5F09E0FB29B5}|AbstractClasses\\AbstractClasses.csproj|solutionrelative:abstractclasses\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{595D0804-101A-45E5-A603-E45BBEDD0956}|InheritanceExamples2\\InheritanceExamples2.csproj|c:\\users\\hp\\desktop\\cdac\\dotnet\\daily notes\\day02\\day2-20250103t103602z-001\\day2\\inheritanceexamples2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{595D0804-101A-45E5-A603-E45BBEDD0956}|InheritanceExamples2\\InheritanceExamples2.csproj|solutionrelative:inheritanceexamples2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\cdac\\dotNet\\daily notes\\day02\\Day2-20250103T103602Z-001\\Day2\\ValueTypes\\Program.cs",
+              "RelativeDocumentMoniker": "ValueTypes\\Program.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\cdac\\dotNet\\daily notes\\day02\\Day2-20250103T103602Z-001\\Day2\\ValueTypes\\Program.cs",
+              "RelativeToolTip": "ValueTypes\\Program.cs",
+              "ViewState": "AgIAAB8AAADAzMzMzMwEwEYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T07:50:24.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\cdac\\dotNet\\daily notes\\day02\\Day2-20250103T103602Z-001\\Day2\\RefAndValue2\\Program.cs",
+              "RelativeDocumentMoniker": "RefAndValue2\\Program.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\cdac\\dotNet\\daily notes\\day02\\Day2-20250103T103602Z-001\\Day2\\RefAndValue2\\Program.cs",
+              "RelativeToolTip": "RefAndValue2\\Program.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAkwFYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T07:07:52.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\cdac\\dotNet\\daily notes\\day02\\Day2-20250103T103602Z-001\\Day2\\ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\cdac\\dotNet\\daily notes\\day02\\Day2-20250103T103602Z-001\\Day2\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "ConsoleApp1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T07:04:50.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\cdac\\dotNet\\daily notes\\day02\\Day2-20250103T103602Z-001\\Day2\\RefAndValue\\Program.cs",
+              "RelativeDocumentMoniker": "RefAndValue\\Program.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\cdac\\dotNet\\daily notes\\day02\\Day2-20250103T103602Z-001\\Day2\\RefAndValue\\Program.cs",
+              "RelativeToolTip": "RefAndValue\\Program.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAA8wE0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T06:01:35.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\cdac\\dotNet\\daily notes\\day02\\Day2-20250103T103602Z-001\\Day2\\DefaultImplementationOfinterfaces\\Program.cs",
+              "RelativeDocumentMoniker": "DefaultImplementationOfinterfaces\\Program.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\cdac\\dotNet\\daily notes\\day02\\Day2-20250103T103602Z-001\\Day2\\DefaultImplementationOfinterfaces\\Program.cs",
+              "RelativeToolTip": "DefaultImplementationOfinterfaces\\Program.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAA+wGoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T05:39:04.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\cdac\\dotNet\\daily notes\\day02\\Day2-20250103T103602Z-001\\Day2\\Interfaces\\Program.cs",
+              "RelativeDocumentMoniker": "Interfaces\\Program.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\cdac\\dotNet\\daily notes\\day02\\Day2-20250103T103602Z-001\\Day2\\Interfaces\\Program.cs",
+              "RelativeToolTip": "Interfaces\\Program.cs",
+              "ViewState": "AgIAANUAAAAAAAAAAAA8wNkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T03:56:50.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\cdac\\dotNet\\daily notes\\day02\\Day2-20250103T103602Z-001\\Day2\\AbstractClasses\\Program.cs",
+              "RelativeDocumentMoniker": "AbstractClasses\\Program.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\cdac\\dotNet\\daily notes\\day02\\Day2-20250103T103602Z-001\\Day2\\AbstractClasses\\Program.cs",
+              "RelativeToolTip": "AbstractClasses\\Program.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAqwEkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T03:32:48.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\cdac\\dotNet\\daily notes\\day02\\Day2-20250103T103602Z-001\\Day2\\InheritanceExamples2\\Program.cs",
+              "RelativeDocumentMoniker": "InheritanceExamples2\\Program.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\cdac\\dotNet\\daily notes\\day02\\Day2-20250103T103602Z-001\\Day2\\InheritanceExamples2\\Program.cs",
+              "RelativeToolTip": "InheritanceExamples2\\Program.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAuwFQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T02:54:02.868Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

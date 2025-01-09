@@ -1,0 +1,14 @@
+D:\Trainings\ActsJan25\Day2\InheritanceAssigment\bin\Debug\net8.0\InheritanceAssigment.exe
+D:\Trainings\ActsJan25\Day2\InheritanceAssigment\bin\Debug\net8.0\InheritanceAssigment.deps.json
+D:\Trainings\ActsJan25\Day2\InheritanceAssigment\bin\Debug\net8.0\InheritanceAssigment.runtimeconfig.json
+D:\Trainings\ActsJan25\Day2\InheritanceAssigment\bin\Debug\net8.0\InheritanceAssigment.dll
+D:\Trainings\ActsJan25\Day2\InheritanceAssigment\bin\Debug\net8.0\InheritanceAssigment.pdb
+D:\Trainings\ActsJan25\Day2\InheritanceAssigment\obj\Debug\net8.0\InheritanceAssigment.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trainings\ActsJan25\Day2\InheritanceAssigment\obj\Debug\net8.0\InheritanceAssigment.AssemblyInfoInputs.cache
+D:\Trainings\ActsJan25\Day2\InheritanceAssigment\obj\Debug\net8.0\InheritanceAssigment.AssemblyInfo.cs
+D:\Trainings\ActsJan25\Day2\InheritanceAssigment\obj\Debug\net8.0\InheritanceAssigment.csproj.CoreCompileInputs.cache
+D:\Trainings\ActsJan25\Day2\InheritanceAssigment\obj\Debug\net8.0\InheritanceAssigment.dll
+D:\Trainings\ActsJan25\Day2\InheritanceAssigment\obj\Debug\net8.0\refint\InheritanceAssigment.dll
+D:\Trainings\ActsJan25\Day2\InheritanceAssigment\obj\Debug\net8.0\InheritanceAssigment.pdb
+D:\Trainings\ActsJan25\Day2\InheritanceAssigment\obj\Debug\net8.0\InheritanceAssigment.genruntimeconfig.cache
+D:\Trainings\ActsJan25\Day2\InheritanceAssigment\obj\Debug\net8.0\ref\InheritanceAssigment.dll
