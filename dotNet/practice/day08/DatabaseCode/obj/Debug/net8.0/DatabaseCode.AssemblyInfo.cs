@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DatabaseCode")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bfa9928f27390f9718facfa707b7bfd9c7dea004")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+902d26c006d0d91eb99a506582c89373cecd0ae4")]
 [assembly: System.Reflection.AssemblyProductAttribute("DatabaseCode")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DatabaseCode")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

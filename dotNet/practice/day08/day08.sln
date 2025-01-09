@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseCode", "DatabaseCode\DatabaseCode.csproj", "{81F6ABE4-D7BC-42E8-991B-29A4BE47D002}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseAssignment", "DatabaseAssignment\DatabaseAssignment.csproj", "{66BB47E0-E3B1-47DC-AF69-DBDC056AF836}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{81F6ABE4-D7BC-42E8-991B-29A4BE47D002}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81F6ABE4-D7BC-42E8-991B-29A4BE47D002}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81F6ABE4-D7BC-42E8-991B-29A4BE47D002}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66BB47E0-E3B1-47DC-AF69-DBDC056AF836}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66BB47E0-E3B1-47DC-AF69-DBDC056AF836}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66BB47E0-E3B1-47DC-AF69-DBDC056AF836}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66BB47E0-E3B1-47DC-AF69-DBDC056AF836}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -299,6 +299,8 @@ namespace DatabaseCode
                     }
                 }
 
+                dr.Close();
+
             }
             catch (Exception ex)
             {
